@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link href="./Style.css" rel="stylesheet">
+    <link href="bootstrap.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <script src="https://bootswatch.com/_vendor/jquery/dist/jquery.min.js"></script>
+    <script src="https://bootswatch.com/_vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <meta charset="ISO-8859-1">
+    <title>CineViz</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="index.html">DataViz</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+                aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">
+                        Graphes
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="dashboards.html">
+                        Dashboard
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class='ctn'>
+        <h1 class="title">Graphes</h1>
+
+        <div>
+            <div class='tableauPlaceholder' id='viz1614958243628' style='position: relative'>
+                <noscript>
+                    <a href='#'>
+                        <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ai&#47;airplane_crashes_16100464174220&#47;Sheet1&#47;1_rss.png' style='border: none' />
+                    </a>
+                </noscript>
+                <object class='tableauViz' style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                    <param name='embed_code_version' value='3' /> <param name='site_root' value='' />
+                    <param name='name' value='airplane_crashes_16100464174220&#47;Sheet1' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ai&#47;airplane_crashes_16100464174220&#47;Sheet1&#47;1.png' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en' />
+                </object>
+            </div>
+            <script type='text/javascript'>var divElement = document.getElementById('viz1614958243628'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+            <div class='box'>
+                <p class='description'>
+                    Ce graphe représente une comparaison entre le nombre de morts et survivants par année,
+                    on a utilisé le dual-axis line chart par ce que le line chart il respect la logique d’évolution
+                    dans le temps et le dual axis est un excellent moyen d’illustrer facilement la relation entre
+                    deux variables différentes par exemple si en veut faire la comparaison des valeurs.
+                    Pour avoir le nombre de survivons on a fait la soustraction du nombre des gens qui ont
+                    été dans l’avion(Aboard) et du nombre des morts (Fatalities).
+                    On a utilisé une légende qui permet d’identifier les éléments visuels sur un graphique et
+                    lorsque vous passez le curseur sur un élément graphique une info-bulle s’affiche.
+                    On a utiliser aussi pages pour afficher les changements au fil du temps que ça soit pour
+                    Les fatalities ou les survivons.
+                </p>
+                <hr />
+            </div>
+        </div>
+
+        <div>
+            <div class='tableauPlaceholder' id='viz1614958918547' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ai&#47;airplane_crashes_16100464174220&#47;Sheet2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='airplane_crashes_16100464174220&#47;Sheet2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ai&#47;airplane_crashes_16100464174220&#47;Sheet2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>
+            <script type='text/javascript'>var divElement = document.getElementById('viz1614958918547'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+            <div class='box'>
+                <p class='description'>
+                    Ce graphe représente une comparaison entre le nombre de passagers et le nombre de
+                    morts par année, on a utilisé le dual-axis line chart par ce que le line chart il respect la
+                    logique d’évolution dans le temps et le dual axis est un excellent moyen d’illustrer
+                    facilement la relation entre deux variables différentes par exemple si en veut faire la
+                    comparaison des valeurs.
+                    On à utiliser une légende qui aident les lecteurs à mieux comprendre l’histoire que
+                    racontent les données et lorsque vous passez le curseur sur un élément graphique une
+                    info-bulle s’affiche.
+                    On a utilisé aussi pages pour afficher les changements au fil du temps que ça soit pour
+                    Le nombre de passagers ou le nombre de morts.
+                </p>
+                <hr />
+            </div>
+        </div>
+
+        <div>
+            <div class='tableauPlaceholder' id='viz1614958983511' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ai&#47;airplane_crashes_16100464174220&#47;Sheet3&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='airplane_crashes_16100464174220&#47;Sheet3' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ai&#47;airplane_crashes_16100464174220&#47;Sheet3&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>
+            <script type='text/javascript'>var divElement = document.getElementById('viz1614958983511'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+            <div class='box'>
+                <p class='description'>
+                    Ce graphe représente nombre de morts au moment de l'accident par rapport au nombre
+                    total de morts par année, on a utilisé le dual-axis line chart par ce que le line chart il
+                    respect la logique d’évolution dans le temps et le dual axis est un excellent moyen
+                    d’illustrer facilement la relation entre deux variables différentes par exemple si en veut faire
+                    la comparaison des valeurs.
+                    On a utilisé une légende qui permet à n’importe qui de capter le message du graphique
+                    d’un coup d’œil, sans explications additionnelles et lorsque vous passez le curseur sur un
+                    élément graphique une info-bulle s’affiche.
+                    On a ajouté les années dans pages pour afficher les changements au fil du temps.
+                </p>
+                <hr />
+            </div>
+        </div>
+
+        <div>
+            <div class='tableauPlaceholder' id='viz1614959057298' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NG&#47;NGWY5C5CN&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;NGWY5C5CN' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NG&#47;NGWY5C5CN&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>
+            <script type='text/javascript'>var divElement = document.getElementById('viz1614959057298'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+            <div class='box'>
+                <p class='description'>
+                    Cette carte elle présente le total de mort dans les pays pour chaque année présenté et
+                    comme vous voyez on a la dégradation de la couleur rouge pour arriver a distinguer entre
+                    les pays qui ont plus de morts et moins de morts.
+                    Lorsque vous passez le curseur sur un élément graphique une info-bulle s’affiche et On
+                    a ajouté les années dans pages pour afficher les changements au fil du temps.
+                </p>
+                <hr />
+            </div>
+        </div>
+
+        <div>
+            <div class='tableauPlaceholder' id='viz1614959102300' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ai&#47;airplane_crashes_16100464174220&#47;Sheet5&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='airplane_crashes_16100464174220&#47;Sheet5' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ai&#47;airplane_crashes_16100464174220&#47;Sheet5&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>
+            <script type='text/javascript'>var divElement = document.getElementById('viz1614959102300'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+            <div class='box'>
+                <p class='description'>
+                    Cette treemap présente le total de mort dans chaque pays hiérarchiquement ordonnée
+                    et comme vous voyez on a la dégradation de la couleur rouge pour arriver a distinguer
+                    entre les pays qui ont plus de morts et moins de morts.
+                    Lorsque vous passez le curseur sur un élément graphique une info-bulle s’affiche.
+                </p>
+                <hr />
+            </div>
+        </div>
+
+        <div>
+            <div class='tableauPlaceholder' id='viz1614959138107' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ai&#47;airplane_crashes_16100464174220&#47;Sheet6&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='airplane_crashes_16100464174220&#47;Sheet6' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ai&#47;airplane_crashes_16100464174220&#47;Sheet6&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>
+            <script type='text/javascript'>var divElement = document.getElementById('viz1614959138107'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+            <div class='box'>
+                <p class='description'>
+                    Ce graphe représente les Top x Aircraft Operators causing Aircrash, on a utilisé le bar chart
+                    par ce qu’on a un attribut catégorique avec un attribut quantitatif.
+                    On a utilisé Un filtre sur l’operateur pour limiter les données quand voudrai afficher sur une
+                    feuille spécifique, et on spécifié le logique d’ordre décroissant.
+                </p>
+                <hr />
+            </div>
+        </div>
+
+        <div>
+            <div class='tableauPlaceholder' id='viz1614959188777' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ai&#47;airplane_crashes_16100464174220&#47;Sheet7&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='airplane_crashes_16100464174220&#47;Sheet7' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ai&#47;airplane_crashes_16100464174220&#47;Sheet7&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>
+            <script type='text/javascript'>var divElement = document.getElementById('viz1614959188777'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+            <div class='box'>
+                <div class='description'>
+                    <p>
+                        Cette carte elle présente le total de mort dans les pays arabe
+                        On a utilisé un filtre pour avoir juste les pays arabe dans la carte, ils sont présentés par la
+                        dégradation de la couleur et par la taille de la boule (la vue) pour arriver à distinguer entre les pays
+                        arabe qui ont plus de morts et moins de morts.
+                        Lorsque vous passez le curseur sur un élément graphique une info-bulle s’affiche.
+                    </p>
+                </div>
+                <hr />
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
